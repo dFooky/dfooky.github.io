@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的 Telegram Bot 主页</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
+            margin: 0;
+            padding: 40px 20px;
+            text-align: center;
+            color: #333;
+        }
+        h1 { color: #0088cc; font-size: 3em; margin-bottom: 20px; }
+        .intro { font-size: 1.3em; max-width: 700px; margin: 0 auto 40px; }
+        .telegram-btn {
+            display: inline-block;
+            background: #0088cc;
+            color: white;
+            font-size: 1.5em;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 10px 20px rgba(0, 136, 204, 0.3);
+            transition: all 0.3s;
+        }
+        .telegram-btn:hover {
+            background: #006699;
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 136, 204, 0.4);
+        }
+        .commands {
+            margin-top: 60px;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        ul { text-align: left; font-size: 1.2em; }
+    </style>
+</head>
+<body>
+    <h1>欢迎来到我的 Telegram Bot 主页！</h1>
+    <p class="intro">这里是我的个人 bot 入口～<br>点下面按钮，直接在 Telegram 上和我聊天！支持问问题、聊天、获取资讯等（未来会越来越智能）。</p>
+
+    <!-- Telegram bot 跳转按钮（替换成你的 bot 用户名） -->
+    <a href="https://t.me/FoukyBot" target="_blank" class="telegram-btn">
+        🚀 立即打开 Telegram Bot 聊天
+    </a>
+
+    <div class="commands">
+        <h2>Bot 支持的命令（示例）</h2>
+        <ul>
+            <li>/start - 开始聊天，欢迎消息</li>
+            <li>/help - 查看帮助</li>
+            <li>你好 - 随便聊聊</li>
+            <li>天气 北京 - （未来加天气查询）</li>
+            <li>笑话 - 听个冷笑话</li>
+        </ul>
+        <p>更多功能开发中... 如果你有想法，欢迎在 Telegram 里告诉我！</p>
+    </div>
+
+    <footer style="margin-top: 80px; color: #666;">
+        <p>Powered by GitHub Pages & Telegram Bot | © 2026 Biangbiang</p>
+    </footer>
+</body>
+</html>
